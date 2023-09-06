@@ -1,11 +1,7 @@
 # Geospatial Tools
 
-This is a list of Python geospatial tools and libraries that can be useful to GIS or EO users. It contains also references to Machine Learning and Deep Learning libraries.
-The table shows:
-- Name
-- Documentation page
-- GitHub repository
-- Brief description
+This is a list of geospatial tools and libraries.
+
 
 ## :open_book: Geospatial lists
 
@@ -13,6 +9,9 @@ The table shows:
 |:--------------------:|:-----------------------:|:-----------------:|
 |Awesome Geospatial| <a href="https://github.com/sacridini/Awesome-Geospatial" target="_blank">GitHub link</a> | Long list of geospatial analysis tools. Geospatial analysis, or just spatial analysis, is an approach to applying statistical analysis and other analytic techniques to data which has a geographical or spatial aspect. |
 |satellite-image-deep-learning| <a href="https://github.com/robmarkcole/satellite-image-deep-learning" target="_blank">GitHub link</a> | This repository lists resources on the topic of deep learning applied to satellite and aerial imagery. To a lesser extent classical machine learning techniques are listed, as are topics such as cloud computing and model deployment. |
+|awesome-gee-community-datasets| <a href="https://github.com/samapriya/awesome-gee-community-datasets" target="_blank">GitHub link</a> | The awesome-gee-community-datasets are community-sourced geospatial datasets made available for use by the larger Google Earth Engine community and shared publicly as Earth Engine assets. |
+|Awesome Earth Engine| <a href="https://github.com/giswqs/Awesome-GEE" target="_blank">GitHub link</a> | A curated list of Google Earth Engine resources. Please visit the Awesome-GEE GitHub repo if you want to contribute to this project. |
+|Awesome-EarthObservation-Code| <a href="https://github.com/acgeospatial/awesome-earthobservation-code" target="_blank">GitHub link</a> | A curated list of awesome tools, tutorials, code, helpful projects, links, stuff about Earth Observation and Geospatial stuff. |
 
 ## :artificial_satellite: Earth Observation
 
@@ -26,8 +25,10 @@ The table shows:
 |RSGISLib| <a href="http://rsgislib.org/rsgislib_zonalstats.html" target="_blank">Doc link</a> | <a href="https://github.com/remotesensinginfo/rsgislib" target="_blank">GitHub link</a> | The Remote Sensing and GIS software library (RSGISLib) is a collection of tools for processing remote sensing and GIS datasets. |
 |sentinelhub| <a href="https://sentinelhub-py.readthedocs.io/en/latest/" target="_blank">Doc link</a> | <a href="https://github.com/sentinel-hub/sentinelhub-py" target="_blank">GitHub link</a> | The sentinelhub Python package is the official Python interface for Sentinel Hub services. It supports most of the services described in the Sentinel Hub documentation and any type of satellite data collections, including Sentinel, Landsat, MODIS, DEM, and custom collections produced by users. |
 |EOEPCA System| <a href="https://eoepca.org/software/" target="_blank">Doc link</a> | <a href="https://github.com/EOEPCA" target="_blank">GitHub link</a> | "A selection of building blocks are available, addressing the three key domains identified in the architecture: Resource Management - catalogue and discovery of data and applications. Processing and Chaining - deployment and execution of applications. User Management - identity, security, access control and accounting" |
-|MetPy | <a href="https://unidata.github.io/MetPy/latest/examples/index.html"  target="_blank">Doc link</a> | <a href="https://github.com/Unidata/MetPy" target="_blank">GitHub link</a> | MetPy is a collection of tools in Python for reading, visualizing and performing calculations with weather data. |
-
+|MetPy| <a href="https://unidata.github.io/MetPy/latest/examples/index.html"  target="_blank">Doc link</a> | <a href="https://github.com/Unidata/MetPy" target="_blank">GitHub link</a> | MetPy is a collection of tools in Python for reading, visualizing and performing calculations with weather data. |
+|Museo ToolBox| <a href="https://github.com/nkarasiak/MuseoToolBox"  target="_blank">Doc link</a> | <a href="https://museotoolbox.readthedocs.io/en/latest/?badge=latest" target="_blank">GitHub link</a> | Museo ToolBox is a python library to simplify the use of raster/vector, especially for machine learning and remote sensing. It is now easy to extract raster values from vector polygons and to do some spatial/unspatial cross-validation for scikit-learn from raster. |
+|rastervision| <a href="https://docs.rastervision.io/en/stable/?badge=stable"  target="_blank">Doc link</a> | <a href="https://github.com/azavea/raster-vision" target="_blank">GitHub link</a> | Raster Vision is an open source Python library and framework for building computer vision models on satellite, aerial, and other large imagery sets (including oblique drone imagery). |
+|EOReader| <a href="https://eoreader.readthedocs.io/en/latest/"  target="_blank">Doc link</a> | <a href="https://github.com/sertit/eoreader" target="_blank">GitHub link</a> | EOReader is a remote-sensing opensource python library reading optical and SAR constellations, loading and stacking bands, clouds, DEM and spectral indices in a sensor-agnostic way. |
 
 ## :earth_americas: GIS
 
@@ -46,6 +47,8 @@ The table shows:
 |gstools| <a href="https://geostat-framework.readthedocs.io/en/latest/#gstools" target="_blank">Doc link</a> | <a href="https://github.com/GeoStat-Framework/GSTools" target="_blank">GitHub link</a> | GeoStatTools provides geostatistical tools for various purposes. |
 |Spatialpandas| <a href="-" target="_blank">Doc link</a> | <a href="https://github.com/holoviz/spatialpandas" target="_blank">GitHub link</a> | Spatialpandas provides Pandas and Dask extensions for vectorized spatial and geometric operations, such as fast, spatially indexed rendering of large collections of polygons, lines, or points. |
 |GeoParquet| <a href="-" target="_blank">Doc link</a> | <a href="https://github.com/opengeospatial/geoparquet" target="_blank">GitHub link</a> | This repository defines how to store geospatial vector data (point, lines, polygons) in Parquet, a popular columnar storage format for tabular data. |
+|SciKit GStat| <a href="https://scikit-gstat.readthedocs.io/en/latest/index.html" target="_blank">Doc link</a> | <a href="https://github.com/mmaelicke/scikit-gstat" target="_blank">GitHub link</a> | SciKit-Gstat is a scipy-styled analysis module for geostatistics. It includes two base classes Variogram and OrdinaryKriging. Additionally, various variogram classes inheriting from Variogram are available for solving directional or space-time related tasks. |
+|R terra| <a href="https://cran.r-project.org/web/packages/terra/index.html" target="_blank">Doc link</a> | <a href="https://github.com/rspatial/terra" target="_blank">GitHub link</a> | terra is an R package for spatial data analysis. Methods for spatial data analysis with vector (points, lines, polygons) and raster (grid) data. Methods for vector data include standard operations such as intersect and buffer. Raster methods include global, local, zonal, and focal computations. The predict and interpolate methods facilitate the use of regression type (interpolation, machine learning) models for spatial prediction, including with satellite remote sensing data. Processing of very large files is supported. |
 
 ## :computer: Data Science & Machine Learning/Deep Learning
 
@@ -93,11 +96,39 @@ The table shows:
 |:--------------------:|:-----------------------:|:-----------------:|:-----------------:|
 |MapColPal| <a href="https://mapcolpal.org/?seed=6690ff-cb6dce-ee665d-c58d00-66ad56-00b1ba" target="_blank">Doc link</a> | <a href="-" target="_blank">GitHub link</a> | This tool is here to help you work with color palettes for thematic maps. |
 
-# Trainings
+## Websites
+| Name | Link | Description |
+|:--------------------:|:-----------------:|:-----------------:|
+|Sentinel-2 UTM Tiling Grid (ESA)| <a href="https://eatlas.org.au/data/uuid/f7468d15-12be-4e3f-a246-b2882a324f59" target="_blank">Link</a> | This dataset shows the tiling grid and their IDs for Sentinel 2 satellite imagery. The tiling grid IDs are useful for selecting imagery of an area of interest. |
+|Spectator Earth| <a href="https://spectator.earth/" target="_blank">Link</a> | Real-Time Satellite Position Monitoring and Imagery Access. |
+
+# Training
 
 ## GIS & Earth Observation
 
 | Name | Link | Description |
 |:--------------------:|:-----------------------:|:-----------------:|
+|E-TRAINEE| <a href="https://3dgeo-heidelberg.github.io/etrainee/index.html" target="_blank">Link</a> | E-learning course on Time Series Analysis in Remote Sensing for Understanding Human-Environment Interactions (E-TRAINEE) was developed by collaboration of research groups from four partner universities – Charles University, Heidelberg University, University of Innsbruck, and University of Warsaw within the ERASMUS+ Strategic partnership project (ID 2020-1-CZ01-KA203-078308). |
 |WEkEO| <a href="https://github.com/wekeo" target="_blank">Link</a> | Trainings provided by WEkEO DIAS. |
 |Data Carpentry| <a href="https://carpentries-incubator.github.io/geospatial-python/" target="_blank">Link</a> | Data Carpentry’s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. |
+|Trainings list - EUMETSAT| <a href="https://training.eumetsat.int/course/index.php?categoryid=97" target="_blank">Link</a> | List of trainings and tutorials available from EUMETSAT. |
+|Data Access Services - EUMETSAT| <a href="https://training.eumetsat.int/course/view.php?id=436" target="_blank">Link</a> | Tutorials and trainings about Data Access Services provided by EUMETSAT platform. |
+|EUMETSAT Atlassian| <a href="https://eumetsatspace.atlassian.net/wiki/home" target="_blank">Link</a> | Information about EUMETSAT services, products, data format etc. |
+|RUS Copernicus (Research and User Support)| <a href="https://rus-copernicus.eu/portal/the-rus-offer/training/" target="_blank">Link</a> | Trainings sessions and webinars provided by RUS Service. |
+|EUMETSAT Training HUB - Jupyter Notebooks| <a href="https://trainhub.eumetsat.int/atmosphere/20_data_discovery" target="_blank">Link</a> | Jupyter notebooks available for satellite data processing and visualization. |
+|Copernicus CAMS & C3S Jupyter Notebooks| <a href="https://github.com/ecmwf-projects/copernicus-training" target="_blank">Link</a> | This repository hosts Jupyter notebook training material for the Copernicus Climate Change Service (C3S) and the Copernicus Atmosphere Monitoring Service (CAMS). |
+|LTPy - a Jupyter-based Learning Tool for Atmospheric Composition Datas| <a href="https://login.ltpy.adamplatform.eu/authentication/login/?next=/" target="_blank">Link</a> | LTPy is based on Jupyter notebooks and has a modular approach, with learning modules on data access, data processing, data visualization and a set of example workflows to support relevant atmospheric applications. |
+|NASA Arset Trainings | <a href="https://appliedsciences.nasa.gov/join-mission/training" target="_blank">Link</a> | NASA Arset Training list related to multiple topics. |
+|Copernicus Land Interactive Notebooks - Terrascope service| <a href="https://land.copernicus.eu/global/access" target="_blank">Link</a> | Interactive notebooks from Copernicus Land Terrascope. |
+|geemap/leafmap tutorials| <a href="https://www.youtube.com/c/QiushengWu/videos" target="_blank">Link</a> | Youtube tutorial about geemap/leafmap and other tools/software.|
+|ACGeospatial| <a href="https://github.com/acgeospatial" target="_blank">Link</a> |Earth Observation, Geospatial, GIS, Satellite imagery, Python, Julia, courses, training.|
+|Pratt SAVI 810 - Intro to Python Scripting for Geospatial| <a href="https://github.com/pratt-savi-810" target="_blank">Link</a> |Introduction to Python Scripting for Geospatial analysis.|
+|S5P-Tools| <a href="https://github.com/bilelomrani1/s5p-tools" target="_blank">Link</a> |Scripts to download and process air-pollution data collected by the satellite Sentinel-5P from the Copernicus Open Access Hub. The collect is based on the sentinelsat package and the API Hub Access. L3 resampling is made with HARP tools.|
+|COURSE: Artificial Intelligence (AI) for Earth Monitoring| <a href="https://www.futurelearn.com/courses/artificial-intelligence-for-earth-monitoring" target="_blank">Link</a> |Explore how artificial intelligence (AI) and machine learning (ML) technologies are helping to advance Earth monitoring.|
+|EUMETlab| <a href="https://gitlab.eumetsat.int/eumetlab" target="_blank">Link</a> | This page contains groups of code repositories that have been made open to the public by EUMETSAT and our collaborators. |
+
+## Computer Science
+
+| Name | Link | Description |
+|:--------------------:|:-----------------------:|:-----------------:|
+|Computer Science courses| <a href="https://github.com/Developer-Y/cs-video-courses" target="_blank">Link</a> | Computer Science courses with video lectures. |
